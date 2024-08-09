@@ -27,9 +27,12 @@ print(f"P-value: {p_value:.4f}")
 
 
 ### Create md format Table ###
+# Change this to include the correct data
+
 myTable = PrettyTable(["Student Name", "Class", "Section", "Percentage"])
 myTable.add_row(["Leanord", "X", "B", "91.2 %"])
 myTable.add_row(["Penny", "X", "C", "63.5 %"])
+
 # Add more rows as needed
 
 print(myTable)
